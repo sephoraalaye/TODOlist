@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+   
+}
+/*===========================debut liste.php ==================================*/
+.Espacementtop{
+    margin-top: 10%;
+}
+
+.couleurdefond{
+    background-color: darkslategrey;
+}
+
+.flexibility{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+}
+
+.container .dimension{
+    width:85%;
+    height:90px;
+}
+
+.largeursaisie{
+    width:85%;
+}
+
+.container .search_bar{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.largeurform{
+    width:90%;
+    
+}
+
+.largeursaisi{
+    width:80%;
+    
+}
+
+.flexrow{
+    display: flex;
+}
+
+.dimensionBoutton{
+    width: 10%;
+    height: 80%;
+}
+
+.bleu{
+    background-color: blue;
+}
+
+.blanc{
+    background-color:white;
+    width: 50px;
+    height: 50px;
+}
+
+.dimensionBoutton img{
+    width: 30px;
+    height: 30px;
+}
+
+.boutton img{
+    width: 50px;
+    height: 50px;
+}
+
+.paragraphe{
+  background-color:white;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.date{
+    text-align: end;
+    font-style: italic;
+}
+
+.flexcolonne{
+    display: flex;
+    flex-direction: column;
+}
+
+.dnone{
+    display: none;
+}
+
+.entree{
+    font-size: 18px;
+    padding: 8px;
+    text-align: justify;
+    background-color: yellow;
+    height: 30%;
+     width: 97%;
+}
+
+
+
+/*===========================Fin  liste.php ==================================*/
+
+/*===========================Debut  index.php ==================================*/
+
+.bloc{
+    position: absolute;
+    background-color:white;
+    opacity: 0.4;
+    
+    border-radius: 50%;
+}
+
+.item1{
+    top: 20%;
+    left: 5% ;
+    width: 40px;
+    height: 40px;
+}
+
+.item2{
+    top: 70%;
+    left: 22%;
+    width: 10px;
+    height: 10px;
+}
+
+.item3{
+    top: 10%;
+    left: 15% ;
+    width: 100px;
+    height: 100px;
+}
+
+.item4{
+    top: 39%;
+    left: 25% ;
+    width: 50px;
+    height: 50px;
+}
+
+.item5{
+    top: 60%;
+    left: 35% ;
+    width: 200px;
+    height: 200px;
+}
+
+.item6{
+    top: 20%;
+    left: 40% ;
+    width: 70px;
+    height: 70px;
+}
+
+.item7{
+    top: 20%;
+    right: 20% ;
+    width: 35px;
+    height: 35px;
+}
+
+.item8{
+    top: 20%;
+    right: 5% ;
+    width: 75px;
+    height: 75px;
+}
+
+.item9{
+    top: 70%;
+    right:0% ;
+    width: 150px;
+    height: 150px;
+}
+
+
+.inscription{
+   
+    background-color: rgb(92, 154, 154);
+    margin-top: 10%;
+    padding: 2%;
+    color: white;
+}
+
+.widthInscription{
+    width: 30%;
+    height: 70vh;
+}
+
+.widthConnexion{
+    width: 20%;
+}
+
+
+.flexibility1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.espacementgap{
+    gap: 1%;
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="submit"]{
+    border: solid 1px white;
+    width: 90%;
+    height: 8%;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.Fondcolor{
+    background-color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
